@@ -20,6 +20,8 @@ public class ArrayList : MonoBehaviour {
         {
             Debug.Log(item);
         }
+        string thirdMemberInList = membersList[2];
+        Debug.Log("Third member of list is "+thirdMemberInList);
 	}
 	
 	// Update is called once per frame
