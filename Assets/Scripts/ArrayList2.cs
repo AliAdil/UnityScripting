@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class ArrayList : MonoBehaviour {
+public class ArrayList2 : MonoBehaviour {
     //array declaration
     //public string[] membersArray = new string[] {"ali","adil","usman","bilal"};
     
