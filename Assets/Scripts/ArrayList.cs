@@ -1,18 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ArrayList : MonoBehaviour {
-	public string[] members = new string[] {"ALi","Adil","Usman","Bilal"};
-	// Use this for initialization
-
+    //array declaration
+    //public string[] membersArray = new string[] {"ali","adil","usman","bilal"};
+    
+    //list declaration
+    public List<string> membersList = new List<string>();
 
 	void Start () {
-		Debug.Log (members [1]+" "+members[0]);
-	
+        // for array 
+		//Debug.Log (membersArray [1]+" "+membersArray[0]);
+        membersList.Add("ALi");
+        membersList.Add("Usman");
+        membersList.Add("Bilal");
+        membersList.Add("Adil");
+        foreach (var item in membersList)
+        {
+            Debug.Log(item);
+        }
 	}
 	
 	// Update is called once per frame
-	void Update () {
+    //void Update () {
 	
-	}
+    //}
 }
