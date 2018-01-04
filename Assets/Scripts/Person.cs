@@ -12,6 +12,13 @@ public class Person  {
     public bool isMale = false;
     public bool isMarried = false;
 
+    public int BothPersonAgeTotal (int age1 , int age2)
+    {
+
+            int total = age1+age2;
+            return total;
+    }
+
     public bool IsMarriedWith(Person otherPerson)
     {
         if (spouse != null)
