@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LearningObjects : MonoBehaviour {
-
+    
 	// Use this for initialization
     public Person man;
     public Person woman;
