@@ -12,6 +12,17 @@ public class Person  {
     public bool isMale = false;
     public bool isMarried = false;
 
+    public Person()
+    {
+
+    }
+
+    public Person(string pFirstName, string pLastName)
+    {
+        this.firstName = pFirstName;
+        this.lastName = pLastName;
+    }
+
     public int BothPersonAgeTotal (int age1 , int age2)
     {
 
